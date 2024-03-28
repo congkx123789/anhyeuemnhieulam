@@ -1,0 +1,29 @@
+﻿  Game.cpp
+  GameOject.cpp
+  main.cpp
+C:\Users\havuc\source\repos\game 1\game 1\main.cpp(4,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+Game.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: void __cdecl My_Game::init(char const *,int,int,bool)" (?init@My_Game@@QEAAXPEBDHH_N@Z)
+GameOject.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+Game.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: void __cdecl My_Game::init(char const *,int,int,bool)" (?init@My_Game@@QEAAXPEBDHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl My_Game::Systems_Clear(void)" (?Systems_Clear@My_Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: bool __cdecl My_Game::running1(void)" (?running1@My_Game@@QEAA_NXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: void __cdecl My_Game::init(char const *,int,int,bool)" (?init@My_Game@@QEAAXPEBDHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: void __cdecl My_Game::init(char const *,int,int,bool)" (?init@My_Game@@QEAAXPEBDHH_N@Z)
+GameOject.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+Game.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl My_Game::init(char const *,int,int,bool)" (?init@My_Game@@QEAAXPEBDHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl My_Game::render1(void)" (?render1@My_Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl My_Game::render1(void)" (?render1@My_Game@@QEAAXXZ)
+GameOject.obj : error LNK2001: unresolved external symbol SDL_RenderCopy
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl My_Game::render1(void)" (?render1@My_Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: void __cdecl My_Game::Systems_Clear(void)" (?Systems_Clear@My_Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: void __cdecl My_Game::init(char const *,int,int,bool)" (?init@My_Game@@QEAAXPEBDHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: void __cdecl My_Game::Systems_Clear(void)" (?Systems_Clear@My_Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: void __cdecl My_Game::init(char const *,int,int,bool)" (?init@My_Game@@QEAAXPEBDHH_N@Z)
+GameOject.obj : error LNK2001: unresolved external symbol IMG_Load
+main.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\SDL2-2.30.0\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SDL2-2.30.0\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\havuc\source\repos\game 1\x64\Debug\game 1.exe : fatal error LNK1120: 16 unresolved externals
